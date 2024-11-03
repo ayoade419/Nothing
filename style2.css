@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.please{
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+    background-color: black;
+    animation: move 2s linear infinite;
+}
+@keyframes move{
+    0%{
+        right: 50px;
+    }
+    25%{
+        margin-left: 1400px;
+    }
+    50%{
+        margin-top: 700px;
+    }
+}
